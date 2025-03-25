@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça a Lumina, sua loja de joias de prata. Encontre nossas peças na Shopee ou WhatsApp.">
+    <meta property="og:title" content="Lumina - Links">
+    <meta property="og:description" content="Encontre nossas joias de prata na Shopee ou WhatsApp.">
+    <meta property="og:image" content="logo.jpg"> 
+    <title>Lumina - Links</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #6a5acd, #9370db);
+            color: white;
+            padding: 20px;
+        }
+        .logo {
+            width: 120px;
+            margin-bottom: 15px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .logo:hover {
+            transform: scale(1.1);
+        }
+        .container {
+            max-width: 420px;
+            margin: auto;
+            padding: 25px;
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            animation: fadeIn 1s ease-in-out;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #ffdf00;
+        }
+        .link-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            margin: 10px 0;
+            padding: 15px;
+            text-decoration: none;
+            background-color: #fff;
+            color: #6a5acd;
+            font-weight: 600;
+            border-radius: 12px;
+            font-size: 18px;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .link-button:hover {
+            background-color: #f0f0f0;
+            transform: scale(1.05);
+        }
+        .link-button img {
+            width: 24px;
+            height: 24px;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.jpg" alt="Logo da Lumina" class="logo">
+        <h1>Bem-vindo à Lumina!</h1>
+        <p>Descubra a <span class="highlight">elegância</span> e o <span class="highlight">brilho</span> das nossas joias de prata. Escolha onde deseja comprar:</p>
+        <a href="https://wa.me/5577999059860" class="link-button" target="_blank" rel="noopener noreferrer" aria-label="Comprar pelo WhatsApp">
+            <img src="whatsapp.svg" alt="WhatsApp"> Compre pelo WhatsApp
+        </a>
+        <a href="https://shopee.com.br/lumina.oficial_925" class="link-button" target="_blank" rel="noopener noreferrer" aria-label="Comprar na Shopee">
+            <img src="shoppe.png" alt="Shopee"> Visite nossa Shopee
+        </a>
+        <p><strong>🌙 Suas joias merecem um toque especial. Garanta a sua agora! ✨</strong></p>
+    </div>
+</body>
+</html>
